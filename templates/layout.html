@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title }}</title>
+<meta name="description" content="Coming Soon Responsive Template">
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+<link href="assets/css/main.css" rel="stylesheet">
+</head>
+<body>
+<div class="full_body">
+        
+        <!--search-->
+        <div class="text-center">
+
+          
+            <div class="custom-logo" style="padding-bottom: 40px;">
+          <!---
+              <a href = "/"><img src="assets/img/logo.png" alt="Where can I watch this?" width = "216" height = "58"/></a>
+          -->
+              <a href = "/"><h1>WCIWT</h1></a>
+            </div>
+          
+            <div class="col-md-5 center-block col-sm-8 col-xs-11">
+          
+              <form role="form" id="mc-form" action="search">
+          
+                <div class="input-group">
+          
+                  <input autofocus class="form-control" autocomplete="off" placeholder="Movie or Show title" required value="{{ value }}" onfocus="var val=this.value; this.value=''; this.value= val;" name="query">
+              
+                  <span class="input-group-btn">
+              
+                  <button type="submit" class="btn btn-default">Search</button>
+              
+                  </span>
+
+                </div>
+              
+              </form>
+            </div>
+        
+        </div>
+        {% block content %}
+
+        {% endblock %}
+<div class = "text-center custom-logo col-md-5 center-block col-sm-8 col-xs-11">
+  <p>Now supporting <a href="https://netflix.com/" target="_blank">Netflix</a>, <a href="https://www.primevideo.com/" target="_blank">Prime Video</a> and <a href = "http://hotstar.com/" target = "_blank">Hotstar</a>.</p>
+  <p>Contact <a href = "https://t.me/dronethrone/" target = "_blank">@dronethrone</a> on telegram to contribute to our database and for other information.</p>
+</div>
+<!--blockends-->
+</div>
+<script src="assets/js/jquery-1.11.1.min.js"></script> 
+<script src="assets/js/jquery.backstretch.min.js"></script> 
+<script src="assets/js/retina.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
