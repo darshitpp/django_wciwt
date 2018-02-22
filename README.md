@@ -19,3 +19,6 @@ wciwt makes it easier to find your favourite TV shows and movies in India. It ho
 Contact [@dronethrone](https://t.me/dronethrone/) for more information.
 
 wciwt is available on the Python Package Index (PyPI) at [https://pypi.python.org/pypi/wciwt](https://pypi.python.org/pypi/wciwt)
+
+### Heroku
+Hosted on Heroku here: [https://testwciwt.herokuapp.com/](https://testwciwt.herokuapp.com/)
